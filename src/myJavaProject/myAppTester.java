@@ -17,7 +17,7 @@ public class myAppTester {
 	  reverseMethod(n);
 	  System.out.println();
 
-	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
+	  myTestMethod(20000);
 
 	}
 	
@@ -34,14 +34,12 @@ public class myAppTester {
 	   }
 
 
-	   /* 
-	       add your test method in this space then remove the block comment symbols
-	       public static void myTestMethod(...){
-
-            
+	       public static void myTestMethod(int salary){
+				if(salary>10000)
+					System.out.print("Get ready to pay high income tax.");
 
 		   }
 	 
-	   */
+	   
 
 }
